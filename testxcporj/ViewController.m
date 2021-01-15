@@ -23,6 +23,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     VVshareSDK *test = [[VVshareSDK alloc] init];
     [test sayHello];
+    [test sayMyLove];
 }
 
 
